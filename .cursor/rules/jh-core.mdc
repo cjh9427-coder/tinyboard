@@ -1,0 +1,17 @@
+---
+description: J H core coding rules for Cloud Agents (always on)
+alwaysApply: true
+---
+
+# J H core (Cloud Agent)
+
+Read and follow root `AGENTS.md`. Short form:
+
+- **Code only.** No trading data, strategy, labels DB dumps, transcripts, or screenshots in the repo.
+- **No irreversible acts without approval.** No push to main, merge, publish, delete, sign-up, or paid service. Work on a branch; report and wait.
+- **No fabrication.** Claims need real command output from this turn.
+- **Prove it works.** Run `bash scripts/check.sh` (+ project tests) before "done".
+- **Two strikes.** Same failure twice → change approach.
+- **Small diffs.** Subtract before you add.
+- **Report.** Short Korean: what changed, commands run, results, what you did not do.
+- **Unblock:** retry once → logs → alternative → docs → small trial → then report.
