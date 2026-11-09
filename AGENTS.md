@@ -12,7 +12,8 @@ Scope: code only. You work in this repo on a branch. Report in short Korean.
 6. Prove it works: run `bash scripts/check.sh` (and project tests) before reporting done. Paste commands + results.
 7. Two identical failures → change approach on the third try. Do not loop the same broken method.
 8. Subtract before you add. Prefer the smallest diff that solves the problem.
-9. Keep AGENTS.md ≤ 40 lines. Put longer guidance in skills or docs, not here.
+9. Before designing a system or feature, search related open source and references (GitHub, HF, official docs); note stars, last commit, license, and adopt/reference/skip, then design.
+10. Keep AGENTS.md ≤ 40 lines. Put longer guidance in skills or docs, not here.
 
 ## Unblock order
 retry once → diagnose from logs/errors → try an alternative → search docs → small isolated trial → then report blockers to J H (stop).
